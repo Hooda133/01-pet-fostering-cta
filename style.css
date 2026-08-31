@@ -15,6 +15,7 @@ body {
 	padding: 18px 9vw;
 	border-bottom: 1px solid rgba(131, 225, 209, .28);
 	background: #073d4a;
+	text-align: center;
 }
 
 .site-header a {
@@ -45,9 +46,11 @@ body {
 .banner-content {
 	position: relative;
 	z-index: 1;
-	width: 52%;
+	width: 100%;
 	max-width: 650px;
+	margin: 0 auto;
 	padding-top: 4vh;
+	text-align: center;
 }
 
 .eyebrow {
@@ -73,7 +76,7 @@ h1 span {
 
 .banner-description {
 	max-width: 520px;
-	margin: 0 0 38px;
+	margin: 0 auto 38px;
 	color: #d9efec;
 	font-size: 19px;
 	line-height: 1.65;
