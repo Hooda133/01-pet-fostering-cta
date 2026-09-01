@@ -107,31 +107,7 @@ h1 span {
 }
 
 .pet-photo {
-	position: absolute;
-	right: 8vw;
-	bottom: 11vh;
-	width: 27vw;
-	max-width: 370px;
-	margin: 0;
-	border: 9px solid rgba(245, 251, 250, .9);
-	background: #f5fbfa;
-	box-shadow: 18px 18px 0 rgba(2, 45, 55, .4);
-	transform: rotate(3deg);
-}
-
-.pet-photo img {
-	display: block;
-	width: 100%;
-	height: auto;
-  border-radius: 25px;
-}
-
-.pet-photo figcaption {
-	padding: 12px 14px 14px;
-	color: #174c55;
-	font-size: 13px;
-	font-weight: 700;
-	line-height: 1.35;
+	display: none;
 }
 
 /* Keep the foster story section clear and centered with two even columns. */
@@ -147,11 +123,20 @@ h1 span {
 	text-align: center;
 }
 
+.info-grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .info-image,
 .info-copy {
-	display: inline-block;
 	width: 48%;
-	margin: 0 1%;
+	margin: 0;
 	vertical-align: middle;
 	text-align: left;
 }
