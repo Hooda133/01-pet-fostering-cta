@@ -123,6 +123,7 @@ h1 span {
 	display: block;
 	width: 100%;
 	height: auto;
+  border-radius: 25px;
 }
 
 .pet-photo figcaption {
@@ -131,6 +132,68 @@ h1 span {
 	font-size: 13px;
 	font-weight: 700;
 	line-height: 1.35;
+}
+
+/* Keep the foster story section clear and centered with two even columns. */
+.foster-info {
+	padding: 72px 9vw 88px;
+	background: #f5fbfa;
+	color: #123d45;
+}
+
+.info-grid {
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.info-image,
+.info-copy {
+	display: inline-block;
+	width: 48%;
+	margin: 0 1%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.info-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 18px;
+}
+
+.info-kicker {
+	margin: 0 0 12px;
+	color: #0d5a63;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.info-copy h2 {
+	margin: 0 0 18px;
+	color: #123d45;
+	font-family: "Manrope", sans-serif;
+	font-size: clamp(30px, 4vw, 48px);
+	line-height: 1.1;
+}
+
+.info-copy p {
+	margin: 0 0 18px;
+	color: #28606b;
+	font-size: 18px;
+	line-height: 1.7;
+}
+
+.info-link {
+	display: inline-block;
+	margin-top: 8px;
+	color: #0d5a63;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 /* Stack the message on smaller screens so nothing is crowded. */
@@ -163,5 +226,12 @@ h1 span {
 
 	.pet-photo {
 		display: none;
+	}
+
+	.info-image,
+	.info-copy {
+		display: block;
+		width: 100%;
+		margin: 0 0 24px;
 	}
 }
