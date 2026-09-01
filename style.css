@@ -8,7 +8,7 @@ body {
 	color: #f5fbfa;
 	background: #073d4a;
 	font-family: "DM Sans", sans-serif;
-	overflow: hidden;
+	overflow: auto;
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 /* Keep the site name visible in a short, calm band above the banner. */
 .site-header {
 	padding: 12px 9vw;
-	border-bottom: 1px solid rgba(131, 225, 209, .28);
+	border-bottom: 1px solid rgba(247, 248, 248, 0.28);
 	background: #073d4a;
 	text-align: center;
 }
@@ -39,7 +39,7 @@ main {
 /* The banner uses the park photo to connect fostering with a safe outdoor world. */
 .foster-banner {
 	position: relative;
-	min-height: 58vh;
+	min-height: 40vh;
 	padding: 6vh 9vw 4vh;
 	overflow: hidden;
 	background-image: linear-gradient(90deg, rgba(4, 54, 67, .96) 0%, rgba(6, 74, 84, .83) 46%, rgba(6, 74, 84, .3) 100%), url("img/cta-bg.jpg");
@@ -184,6 +184,18 @@ h1 span {
 	font-size: 16px;
 	font-weight: 700;
 	text-decoration: underline;
+}
+
+/* Footer section with contact information. */
+.site-footer {
+	padding: 12px 9vw;
+	text-align: left;
+}
+
+.site-footer p {
+	margin: 0;
+	color: #f5f8f8;
+	font-size: 16px;
 }
 
 /* Stack the message on smaller screens so nothing is crowded. */
